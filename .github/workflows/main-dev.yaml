@@ -3,7 +3,7 @@ name: ECR Push Workflow
 on:
   push:
     branches:
-      - develop
+      - main
 
 jobs:
   deploy:
